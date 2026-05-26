@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sachiko Ogata's Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Top right dot -->
+<div class="top-dot"></div>
+
+<!-- Background floating geometric shapes -->
+<div class="floating-shapes">
+  <span class="fs fs-triangle fs-1"></span>
+  <span class="fs fs-ring fs-3"></span>
+  <span class="fs fs-diamond fs-4"></span>
+  <span class="fs fs-square fs-10"></span>
+  <span class="fs fs-line fs-12"></span>
+  <span class="fs fs-triangle fs-16"></span>
+  <span class="fs fs-circle fs-19"></span>
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-title">
+      This is Koji's<br>
+      Portfolio Website.
+      <span class="hero-sub">I'm a growing web designer.|</span>
+    </h1>
+    <div class="hero-visual">
+      <div class="hero-blob-bg"></div>
+      <div class="hero-deco hero-deco-1"></div>
+      <div class="hero-deco hero-deco-2"></div>
+      <div class="hero-deco hero-deco-3"></div>
+      <div class="hero-image-wrap">
+        <img src="image/DSC08322.JPG" alt="Koji">
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <span class="scroll-line"></span>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+  <div class="section-label about-label">
+    <span class="label-en">ABOUT</span>
+    <span class="label-jp">私について</span>
+  </div>
+  <div class="about-blob"></div>
+  <div class="about-content">
+    <h2 class="about-quote">
+      Don't try to be original,<br>
+      just try to be good.
+    </h2>
+    <p class="about-text">
+      お客様の要望や悩みを正確に共有する。<br>
+      エンドユーザーの思考をしっかりと考える。<br>
+      その上で情報に基づいた「良い」デザインを届けたい。
+    </p>
+    <a href="#" class="more-btn">
+      More
+      <span class="more-line"></span>
+    </a>
+  </div>
+</section>
+
+<!-- WORKS SECTION -->
+<section class="works" id="works">
+  <div class="section-label works-label">
+    <span class="label-en">WORKS</span>
+    <span class="label-jp">制作物</span>
+  </div>
+  <div class="works-blob"></div>
+
+  <div class="works-inner">
+    <div class="works-tabs">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="corporate">コーポレート</button>
+      <button class="tab" data-filter="lp">ランディングページ</button>
+      <button class="tab" data-filter="shop">店舗・サロン</button>
+      <button class="tab" data-filter="other">その他</button>
+    </div>
+
+    <div class="works-grid">
+      <div class="work-card" data-category="corporate">
+        <div class="work-thumb"><img src="image/実績/企業HP.png" alt="企業HP"></div>
+        <h3 class="work-title">企業コーポレートサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+      <div class="work-card" data-category="corporate">
+        <div class="work-thumb"><img src="image/実績/企業HP 2.png" alt="企業HP 2"></div>
+        <h3 class="work-title">企業ブランディングサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+      <div class="work-card" data-category="lp">
+        <div class="work-thumb"><img src="image/実績/スクール.png" alt="スクール"></div>
+        <h3 class="work-title">スクールのランディングページ</h3>
+        <p class="work-cat">LP / Design</p>
+      </div>
+      <div class="work-card" data-category="lp">
+        <div class="work-thumb"><img src="image/実績/ゲーミングチェア.png" alt="ゲーミングチェア"></div>
+        <h3 class="work-title">ゲーミングチェアの販促LP</h3>
+        <p class="work-cat">LP / Design</p>
+      </div>
+      <div class="work-card" data-category="shop">
+        <div class="work-thumb"><img src="image/実績/サロンサイト.png" alt="サロンサイト"></div>
+        <h3 class="work-title">サロンのWebサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+      <div class="work-card" data-category="shop">
+        <div class="work-thumb"><img src="image/実績/飲食店サイト.png" alt="飲食店サイト"></div>
+        <h3 class="work-title">飲食店のWebサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+      <div class="work-card" data-category="other">
+        <div class="work-thumb"><img src="image/実績/サウナ.png" alt="サウナ"></div>
+        <h3 class="work-title">サウナ施設のWebサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+      <div class="work-card" data-category="other">
+        <div class="work-thumb"><img src="image/実績/占い.png" alt="占い"></div>
+        <h3 class="work-title">占いサービスのWebサイト</h3>
+        <p class="work-cat">Web Design</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="works-cta">
+    <span class="cta-text">if you want to see m∪ch for some</span>
+    <span class="cta-arrow">↑</span>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-left">
+    <span class="footer-logo">K</span>
+    <span class="footer-name">Koji</span>
+  </div>
+  <nav class="footer-nav">
+    <a href="#about">ABOUT</a>
+    <a href="#works">WORKS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
